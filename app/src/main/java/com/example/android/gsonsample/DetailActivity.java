@@ -39,5 +39,6 @@ RatingBar ratingBar;
         Log.i("ratingh", "onCreate: "+rating);
         ratingBar.setRating((float) (rating/2));
 
+
     }
 }
