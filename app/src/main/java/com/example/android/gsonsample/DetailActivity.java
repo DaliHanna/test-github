@@ -36,7 +36,7 @@ RatingBar ratingBar;
         descriptionTextView.setText(description);
         dateTextView.setText(date);
         Glide.with(this).load("https://image.tmdb.org/t/p/w500" +image).into(imageView);
-        Log.i("rating", "onCreate: "+rating);
+        Log.i("ratingg", "onCreate: "+rating);
         ratingBar.setRating((float) (rating/2));
 
     }
